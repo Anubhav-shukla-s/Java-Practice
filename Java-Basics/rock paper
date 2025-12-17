@@ -1,0 +1,31 @@
+
+import java.util.Scanner;
+import java.util.Random;
+public class Main {
+   public Main() {
+   }
+
+   public static void main(String[] var0) {
+      System.out.println("0=rock, 1=paper, 2=scissors");
+      Scanner b = new Scanner(System.in);
+      Random rand = new Random();
+      int R = rand.nextInt(3);
+      System.out.print("Enter your Input: ");
+      int a= b.nextInt();
+   System.out.println("Your Input is: " + a);          
+   System.out.println("Bots Input is: " + R);          
+      //rock=0 paper=1 scissors=2
+
+      if ((a==0&&R==2)||(a==1&&R==0)||(a==2&&R==1)) {
+         System.out.println("You win!");
+      }else if(a==R){
+         System.out.println("its a tie");
+      }else{
+         System.out.println("You lose!");
+      }
+         
+      }
+
+
+   }
+
