@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class formulti {
     public static void main(String[] args) {
-        System.out.println("Hello from Main");
 
        
         Scanner sc = new Scanner(System.in);
@@ -12,4 +11,5 @@ public class formulti {
             System.out.printf("%d x %d = %d\n", s, i, s*i);
         }       
     }
+
 }
