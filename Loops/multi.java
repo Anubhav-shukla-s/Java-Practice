@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class multiplication {
     public static void main(String[] args) {
-        System.out.println("Hello from Main");
 
        
         Scanner sc = new Scanner(System.in);
