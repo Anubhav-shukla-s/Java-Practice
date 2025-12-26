@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class firstevensum {
     public static void main(String[] args) {
-        System.out.println("Hello from Main");
 
        
         var sc= new Scanner(System.in);
@@ -20,3 +19,4 @@ public class firstevensum {
     }       
     
 }
+
