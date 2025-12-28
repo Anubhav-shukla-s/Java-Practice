@@ -10,7 +10,8 @@ class circlecheck{
         if(a==area)
         {
             System.out.println("RIght");
-        }else{
+        }else
+        {
             System.out.println("False");
         }
         return 0;
@@ -21,7 +22,8 @@ class circlecheck{
         if(a==circumference)
         {
             System.out.println("RIght");
-        }else{
+        }else
+        {
             System.out.println("False");
         }
         return 0;
@@ -34,4 +36,5 @@ public class circlecheckgetset02 {
         cir.getarea(6.32f);
         cir.getcircumference(5.22f);
     }
+
 }
