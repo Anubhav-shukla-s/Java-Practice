@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class star {
     public static void main(String[] args) {
-        System.out.println("Hello from Main");
 
        
         var sc= new Scanner(System.in);
@@ -17,4 +16,5 @@ public class star {
         } System.out.println();
     }
     }
+
 }
