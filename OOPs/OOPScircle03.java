@@ -27,7 +27,8 @@ class circle {
     }
 }
 
-    public class OOPScircle03 {
+    public class OOPScircle03
+ {
     public static void main(String[] args)
     {
         circle sq=new circle();
